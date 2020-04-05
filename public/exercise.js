@@ -86,6 +86,7 @@ function validateInputs() {
     }
   }
 
+  // if all of the above is valid, then allow the add or complete button to be clicked
   if (isValid) {
     completeButton.removeAttribute("disabled");
     addButton.removeAttribute("disabled");
